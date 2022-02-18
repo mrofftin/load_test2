@@ -61,5 +61,7 @@ public class FileAddController implements Controller{
 		response.setContentType("text/html;charset=euc-kr");
 		response.getWriter().print(fileName);		
 		return null;
+		
+		
 	}
 }
